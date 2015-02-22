@@ -26,4 +26,9 @@ public interface ServiceConstants {
     public static final String CONTENT_TYPE_JSON_UTF8 = MimeTypes.APPLICATION_JSON+"; charset="+StringUtils.UTF8_LITERAL;
     public static final String CONTENT_TYPE_FORM_URLENCODED_UTF8 = MimeTypes.APPLICATION_FORM_URLENCODED+"; charset="+StringUtils.UTF8_LITERAL;
 
+	public static final String HEADER_AUTHORIZATON = "Authorization";
+	public static final String HEADER_CONTENT_TYPE = "Content-Type";
+
+	public static final String CONNECTION_METHOD_POST = "POST";
+
 }
